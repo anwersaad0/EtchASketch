@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Etch A Sketch</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <h1>Etch-A-Sketch</h1>
+        
+        <div class = game>
+            <div class="container"></div>
+            <div class="ui">
+                <label for="colorinput">Color: </label>
+                <input type="color" class="colorinput" name="colorinput">
+                <div class="eraserdiv">
+                    <input type="checkbox" class="eraser check" name="eraser">
+                    <label for="eraser">Eraser</label>
+                </div>
+                <div class="randomdiv">
+                    <input type="checkbox" class="random check" name="random">
+                    <label for="random">Random</label>
+                </div>
+                <input type="range" min="8" max="64" value="36" class="slider">
+            </div>
+        </div>
+        <script src="etchASketch.js"></script>
+    </body>
+</html>
